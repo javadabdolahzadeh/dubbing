@@ -2014,22 +2014,6 @@ def create_gui(theme, logs_in_gui=False):
 
                     gr.Examples(
                         examples=[
-                            [
-                                [""],
-                                "",
-                                "",
-                                "",
-                                False,
-                                whisper_model_default,
-                                4,
-                                com_t_default,
-                                "Spanish (es)",
-                                "English (en)",
-                                1,
-                                2,
-                                "en-CA-ClaraNeural-Female",
-                                "en-AU-WilliamNeural-Male",
-                            ],
                         ],  # no update
                         fn=SoniTr.batch_multilingual_media_conversion,
                         inputs=[
