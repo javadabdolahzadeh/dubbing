@@ -2015,7 +2015,7 @@ def create_gui(theme, logs_in_gui=False):
                     gr.Examples(
                         examples=[
                             [
-                                ["./assets/Video_main.mp4"],
+                                [""],
                                 "",
                                 "",
                                 "",
